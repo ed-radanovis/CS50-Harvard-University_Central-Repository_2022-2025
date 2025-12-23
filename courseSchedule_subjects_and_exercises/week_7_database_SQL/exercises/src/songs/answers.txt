@@ -1,0 +1,20 @@
+If the list in songs.db represented a listener's top 100 most played songs in 2018, their audio aura could be characterized based on the average energy, valence, and danceability.
+Based on calculations:
+
+- Average energy: 0.659
+- Average valence: 0.484
+- Average danceability: 0.716
+
+This suggests a moderately energetic musical profile with slightly neutral-to-positive valence and high danceability.
+
+However, this method of calculation may not be very representative of the listener because:
+
+1. Aggregate averages hide variation throughout the year (a person may have distinct phases).
+2. It does not consider the emotional or situational context of each play.
+3. It ignores distinct music genres that may have different meanings to the listener.
+4. Only 100 songs may not capture the real diversity of listening habits.
+
+A better approach would be:
+- Analyze songs by period (quarters or months).
+- Consider the mode (most frequent genre) instead of just numerical averages.
+- Include time-of-day and playback context data if available.

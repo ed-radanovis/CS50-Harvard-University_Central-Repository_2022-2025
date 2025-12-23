@@ -1,0 +1,50 @@
+/* Custom CSS for My Homepage */
+
+/* 1. Tag selector */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* 2. Class selector */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* 3. ID selector */
+#alertButton {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+/* 4. Pseudo-class selector */
+#alertButton:hover {
+  background-color: #28a745;
+  transform: scale(1.05);
+}
+
+.img-profile {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* 5. Child selector */
+.card>.card-body {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(141, 141, 141, 0.685);
+}
+
+/* Additional styles */
+.card-title {
+  color: #333;
+}
+
+footer {
+  margin-top: 50px;
+}

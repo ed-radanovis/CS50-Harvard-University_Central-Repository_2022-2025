@@ -1,0 +1,28 @@
+# Arquivos compilados do C
+*.exe
+*.o
+*.out
+*.obj
+*.dll
+*.so
+*.a
+bin/  
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do VSCode
+.vscode/         
+VSCode/
+*.code-workspace
+
+# Diretórios e arquivos não pertinentes
+course-84414-suyvv.pdf
+file_tree.txt
+devcontainer.json
+        
+docs/
+
+
+Finance Control EWD.mp4

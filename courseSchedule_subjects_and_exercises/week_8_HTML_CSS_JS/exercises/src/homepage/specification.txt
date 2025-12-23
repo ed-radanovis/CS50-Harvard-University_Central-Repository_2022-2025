@@ -1,0 +1,38 @@
+# CS50 Homepage Specification
+
+## HTML Tags Used (10 distinct, além de <html>, <head>, <body>, <title>):
+
+1. <nav> - Para a barra de navegação principal.
+2. <div> - Para estruturar e agrupar seções de conteúdo.
+3. <a> - Para todos os links de navegação e botões.
+4. <ul> - Para listas não ordenadas (menu, itens de habilidades).
+5. <li> - Para itens de lista dentro de <ul> e <ol>.
+6. <table> - Para exibir habilidades na página "About" (tabela).
+7. <img> - Para inserir imagens (foto de perfil, hobbies).
+8. <strong> - Para destacar texto em negrito.
+9. <span> - Para aplicar estilos específicos a partes do texto (badges).
+10. <footer> - Para o rodapé de todas as páginas.
+
+Outras tags utilizadas (não contadas no mínimo): <header>, <h1>, <h2>, <h3>, <h5>, <p>, <button>, <thead>, <tbody>, <tr>, <th>, <td>, <main>, <section>, <link>, <script>, <meta>, <i>.
+
+## CSS Properties Used (5 distinct, em styles.css):
+
+1. font-family - Define a família de fontes para o corpo do site.
+2. background-color - Define cores de fundo para body, cards e footer.
+3. font-weight - Define o peso da fonte para elementos como .navbar-brand.
+4. border-radius - Arredonda cantos de botões, imagens e cards.
+5. transition - Adiciona transições suaves em hover de botões.
+
+Outras propriedades utilizadas: font-size, padding, margin, box-shadow, text-align, color, display, width, height, object-fit, transform, etc.
+
+## JavaScript Usage:
+I added an interactive button ("Click for a Friendly Alert") in the index.html page. When clicked, it triggers an alert dialog with a welcome message. The functionality is implemented in a separate script.js file using document.getElementById() and addEventListener().
+
+## Bootstrap Usage:
+I used Bootstrap 5 for the entire responsive layout. Specific components and features include:
+- Responsive navbar with toggler for mobile devices.
+- Grid system (.container, .row, .col-*) for layout on all pages.
+- Cards (.card, .card-body) to display content sections.
+- Utility classes for spacing (mt-5, mb-4, py-3), colors (bg-primary, text-white), and text formatting (display-4, lead).
+- Bootstrap's JavaScript for the navbar toggle functionality (data-bs-toggle, data-bs-target).
+- Included via CDN in the <head> section of all HTML pages.

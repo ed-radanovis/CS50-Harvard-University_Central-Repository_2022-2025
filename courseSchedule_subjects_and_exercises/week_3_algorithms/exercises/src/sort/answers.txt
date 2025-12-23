@@ -1,0 +1,72 @@
+sort1 uses: bubble sort
+How do you know?: It is very fast when the list is already sorted (0.055s for sorted10000) but much slower when reversed or random (~0.21s for reversed10000 and random10000), showing the adaptive optimization of bubble sort where best case is Ω(n) and worst case is O(n²).
+
+sort2 uses: merge sort
+How do you know?: It shows consistently fast times across sorted, reversed, and random lists (~0.04-0.15s for 10000 elements) and scales well with larger inputs (only ~1 second for 50000 elements), indicating O(n log n) performance in all cases.
+
+sort3 uses: selection sort
+How do you know?: It is slow across all cases, even when the list is already sorted (~2.77s for sorted50000), and exhibits O(n²) scaling (time increases ~19x when input size increases 5x from 10000 to 50000 random numbers).
+
+
+sort/ $ time ./sort1 random5000.txt
+Could not open file.
+real    0m0,001s
+user    0m0,001s
+sys     0m0,000s  
+sort/ $ time ./sort1 random10000.txt
+real    0m0,210s
+user    0m0,141s
+sys     0m0,  034s
+sort/ $ time ./sort1 random50000.txt
+real    0m6,110s
+user    0m5,076s
+sys     0m0,188s  
+sort/ $ time ./sort1 reversed5000.txt
+real    0m0,064s
+user    0m0,050s
+sys     0m0,014s
+sort/ $ time ./sort1 reversed10000.txt
+real    0m0,209s
+user    0m0,173s
+sys     0m0,035s
+sort/ $ time ./sort1 reversed50000.txt
+real    0m5,508s
+user    0m4,473s
+sys     0m0,192s
+sort/ $ time ./sort1 sorted5000.txt
+real    0m0,034s
+user    0m0,002s
+sys     0m0,020s
+sort/ $ time ./sort1 sorted10000.txt
+real    0m0,055s
+user    0m0,003s
+sys     0m0,037s
+sort/ $ time ./sort1 sorted50000.txt
+real    0m0,972s
+user    0m0,028s
+sys     0m0,164s  
+time ./sort2 sorted10000.txt  
+Could not open file.
+real    0m0,001s
+user    0m0,001s
+sys     0m0,000s   
+time ./sort2 reversed10000.txt  
+real    0m0,040s
+user    0m0,005s
+sys     0m0,035s
+time ./sort2 random10000.txt
+real    0m0,055s
+user    0m0,005s
+sys     0m0,037s
+time ./sort3 sorted10000.txt
+real    0m0,108s
+user    0m0,071s
+sys     0m0,036s
+time ./sort3 reversed10000.txt
+real    0m0,153s
+user    0m0,103s
+sys     0m0,036s
+time ./sort3 random10000.txt
+real    0m0,146s
+user    0m0,096s
+sys     0m0,034s    
