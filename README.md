@@ -38,7 +38,8 @@
 > **Duration :** 11 weeks ( 70 hours total )
 > **Certificate :** Verified Certificate available (edX)  
 > **Difficulty :** Introductory
-> **Languages & Frameworks :** C - Python - SQL - HTML - CSS - JavaScript - **_[Flask](https://flask.palletsprojects.com/)_** > **Lead Instructor:** _`Dr. David J. Malan, Ph.D.`_, Professor of Computer Science, Harvard University
+> **Languages & Frameworks :** C - Python - SQL - HTML - CSS - JavaScript - **_[Flask](https://flask.palletsprojects.com/)_** <br>
+> **Lead Instructor:** _`Dr. David J. Malan, Ph.D.`_, Professor of Computer Science, Harvard University
 
 <br>
 
@@ -529,3 +530,4 @@ Below are some public resources and official repositories maintained by the CS50
 [⬆ Back to top](#central-repository---cs50-harvard-university---2022--2025)
 
 </DOCUMENT>
+
